@@ -1,0 +1,92 @@
+[
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "themes": ["libertate", "control social", "supraveghere", "totalitarism"],
+    "summary": "Roman distopic care descrie o societate dominata de un regim totalitar, unde fiecare aspect al vietii este supravegheat de Big Brother. Oamenii sunt manipulati prin propaganda si controlul limbajului, iar gandirea libera este considerata o crima. Winston Smith, protagonistul, incepe sa puna la indoiala sistemul si cauta adevarul intr-o lume construita pe minciuni. Pe masura ce se revolta impotriva regimului, el descopera consecintele devastatoare ale incercarii de a fi liber."
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "themes": ["aventura", "prietenie", "curaj", "magie"],
+    "summary": "Bilbo Baggins, un hobbit comod si lipsit de experienta, este atras intr-o aventura neasteptata alaturi de un grup de pitici. Scopul lor este sa recupereze o comoara pazita de dragonul Smaug, dar calatoria este plina de pericole si creaturi fantastice. De-a lungul drumului, Bilbo descopera resurse interioare pe care nu stia ca le are. Povestea urmareste transformarea lui dintr-un personaj timid intr-un erou curajos."
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "themes": ["magie", "prietenie", "descoperire", "bine vs rau"],
+    "summary": "Harry Potter afla ca este vrajitor si este invitat sa studieze la Hogwarts, o scoala de magie plina de mistere. Acolo isi face prieteni apropiati si descopera o lume complet noua, diferita de viata lui anterioara. In acelasi timp, incepe sa afle adevarul despre trecutul sau si despre parintii sai. Impreuna cu Ron si Hermione, se confrunta cu pericole si incearca sa opreasca o amenintare ascunsa."
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "themes": ["aventura", "sacrificiu", "prietenie", "razboi"],
+    "summary": "Frodo Baggins primeste sarcina periculoasa de a distruge Inelul Puterii, un obiect care poate aduce distrugerea lumii. Insotit de o comunitate diversa, el porneste intr-o calatorie lunga si dificila prin Middle-earth. Pe parcurs, personajele sunt puse la incercare de pericole, tradari si tentatii. Povestea exploreaza curajul, sacrificiul si puterea prieteniei in fata raului absolut."
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "themes": ["justitie", "rasism", "moralitate", "empatie"],
+    "summary": "Romanul urmareste copilaria lui Scout Finch intr-un orasel din sudul Statelor Unite, unde tensiunile rasiale sunt puternice. Tatal ei, Atticus Finch, este avocat si accepta sa apere un barbat de culoare acuzat pe nedrept. Prin ochii inocenti ai lui Scout, cititorul observa nedreptatile si prejudecatile societatii. Povestea pune accent pe empatie, moralitate si curajul de a face ceea ce este corect."
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "themes": ["razboi", "moarte", "umanitate", "supravietuire"],
+    "summary": "Actiunea are loc in Germania nazista si este narata de Moarte, oferind o perspectiva unica asupra razboiului. Liesel, o fetita pasionata de carti, gaseste alinare in lectura intr-o perioada plina de pierderi si suferinta. Ea fura carti si le imparte cu cei din jur, inclusiv cu un evreu ascuns in casa familiei sale adoptive. Povestea evidentiaza puterea cuvintelor si umanitatea chiar si in cele mai intunecate vremuri."
+  },
+  {
+    "title": "All Quiet on the Western Front",
+    "author": "Erich Maria Remarque",
+    "themes": ["razboi", "trauma", "supravietuire", "realitate"],
+    "summary": "Romanul prezinta experientele unui tanar soldat german pe frontul din Primul Razboi Mondial. Initial entuziast, el descopera rapid brutalitatea si lipsa de sens a razboiului. Prieteniile sunt puse la incercare, iar pierderile devin inevitabile. Povestea reflecta impactul psihologic profund asupra soldatilor si dezumanizarea cauzata de conflict."
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "themes": ["iubire", "societate", "relatii", "prejudecati"],
+    "summary": "Elizabeth Bennet traieste intr-o societate in care casatoria este esentiala pentru statut si siguranta. Relatia ei cu misteriosul Mr. Darcy evolueaza de la prejudecata la intelegere. De-a lungul povestii, personajele invata sa isi depaseasca orgoliile si sa isi reevalueze judecatile. Romanul exploreaza complexitatea relatiilor si presiunile sociale ale vremii."
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "themes": ["destin", "calatorie", "visuri", "autodescoperire"],
+    "summary": "Santiago, un tanar pastor, viseaza sa descopere o comoara ascunsa si decide sa isi urmeze visul. Calatoria lui il duce prin deserturi si il pune fata in fata cu diverse obstacole si invataturi. Pe parcurs, invata sa asculte semnele universului si sa isi urmeze inima. Povestea este o alegorie despre destin, curaj si sensul vietii."
+  },
+  {
+    "title": "The Chronicles of Narnia",
+    "author": "C.S. Lewis",
+    "themes": ["magie", "aventura", "bine vs rau", "copilarie"],
+    "summary": "Mai multi copii descopera o lume magica ascunsa intr-un dulap, numita Narnia. Acolo, ei devin parte dintr-o lupta intre bine si rau, alaturi de creaturi fantastice. Fiecare aventura le testeaza curajul, loialitatea si increderea in sine. Povestea imbina elemente de fantezie cu teme morale si simbolice."
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "themes": ["politica", "putere", "ecologie", "destin"],
+    "summary": "Intr-un univers complex dominat de intrigi politice, planeta Arrakis devine centrul luptei pentru putere. Paul Atreides ajunge pe aceasta lume desertica si este fortat sa se adapteze conditiilor dure. Pe masura ce descopera cultura localnicilor si propriul sau potential, el isi accepta rolul in destinul universului. Povestea exploreaza teme de religie, ecologie si conducere."
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "themes": ["adolescenta", "alienare", "identitate", "rebeliune"],
+    "summary": "Holden Caulfield, un adolescent confuz si rebel, povesteste cateva zile din viata sa dupa ce este exmatriculat. El se plimba prin New York, reflectand asupra societatii si simtindu-se alienat. Relatarile sale sunt marcate de sinceritate si vulnerabilitate. Romanul surprinde lupta interioara a tinerilor in cautarea identitatii."
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "themes": ["control social", "tehnologie", "libertate", "societate"],
+    "summary": "Intr-o societate aparent perfecta, oamenii sunt controlati prin inginerie genetica si conditionare psihologica. Individualitatea este sacrificata pentru stabilitate si fericire artificiala. Personajele incep sa puna la indoiala acest sistem atunci cand descopera alte moduri de a trai. Romanul ridica intrebari despre libertate, tehnologie si natura umana."
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "themes": ["iubire", "vis american", "bogatie", "iluzie"],
+    "summary": "Jay Gatsby este un milionar misterios care organizeaza petreceri extravagante in speranta de a-si recastiga iubirea pierduta. Povestea este relatata de Nick Carraway, care observa decadenta si superficialitatea societatii. Gatsby simbolizeaza visul american si iluzia succesului prin bogatie. Romanul exploreaza dorinta, iubirea si dezamagirea."
+  },
+  {
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "themes": ["obsesie", "aventura", "razbunare", "natura"],
+    "summary": "Naratorul Ishmael se alatura echipajului unei nave conduse de capitanul Ahab, obsedat de vanarea unei balene albe. Calatoria devine din ce in ce mai periculoasa pe masura ce obsesia lui Ahab creste. Relatia dintre om si natura este explorata in detaliu, alaturi de teme filozofice profunde. Povestea este o meditatie asupra obsesiei si destinului."
+  }
+]
