@@ -152,6 +152,64 @@ pytest
 `-- tests/
 ```
 
+## Arhitectura clean folosita
+
+Proiectul urmareste o varianta simplificata de clean architecture, in care responsabilitatile sunt separate clar, astfel incat codul sa fie mai usor de inteles, testat si extins.
+
+### 1. Presentation layer
+
+Fisierul `streamlit_app.py` joaca rolul de strat de prezentare.
+Acesta se ocupa doar de:
+
+- afisarea interfetei
+- citirea inputului utilizatorului
+- afisarea raspunsului
+- controlul optiunilor din UI, cum ar fi debug sau generarea imaginii
+
+Ideea principala este ca logica de business nu sta in interfata.
+
+### 2. Application / service layer
+
+In folderul `src/services/` se afla fluxurile principale ale aplicatiei:
+
+- `chatbot.py` coordoneaza flow-ul principal: guardrails, clasificare intentie, RAG, tool calling si raspuns final
+- `rag.py` se ocupa de cautarea semantica in vector store
+- `vector_store.py` construieste si reconstruieste indexul ChromaDB
+- `image_generator.py` izoleaza logica pentru generarea imaginilor
+
+Acest strat contine comportamentul aplicatiei si orchestreaza colaborarea dintre componente.
+
+### 3. Infrastructure layer
+
+Dependintele externe sunt izolate in zone dedicate:
+
+- `src/clients/openai_client.py` gestioneaza conectarea la OpenAI
+- `src/config.py` centralizeaza configurarea prin variabile de mediu
+- ChromaDB este folosit ca persistenta locala pentru embeddings in folderul `chroma_db`
+- `src/data/book_summaries.json` reprezinta sursa locala de date pentru carti
+
+Aceasta separare reduce cuplarea dintre logica aplicatiei si furnizorii externi.
+
+### 4. Utilities / supporting logic
+
+In folderul `src/utils/` se afla componente suport:
+
+- `tools.py` expune tool-ul care returneaza rezumatul complet pentru un titlu
+- `conversation_control.py` contine validari, reguli de conversatie si clasificarea intentiei
+
+Aceste module sustin logica principala fara sa incarce inutil stratul de prezentare sau serviciile.
+
+### Beneficiile acestei structuri
+
+- fiecare fisier are un rol clar
+- logica de business poate fi testata independent de UI
+- dependintele externe sunt mai usor de inlocuit sau mock-uit in teste
+- proiectul poate creste mai usor fara sa devina haotic
+
+### Observatie importanta
+
+Arhitectura folosita aici este o forma practica si usoara de clean architecture, potrivita pentru un proiect de dimensiune mica spre medie. Nu este o implementare stricta, cu entitati, use cases si adaptoare separate la nivel enterprise, dar respecta ideea centrala: separarea responsabilitatilor si izolarea dependintelor.
+
 ## Probleme frecvente
 
 ### Eroare legata de `.env`
